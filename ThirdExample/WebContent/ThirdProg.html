@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function fun1() {
+	alert("entered into javascript");
+	document.form.action="JavaScript";
+	document.form.submit();
+}
+</script>
+</head>
+<body>
+<form name = "form">
+<p>
+Select State:<select name="s1" onChange="fun1()">
+<option value="">select</option>
+<option value="Telangana">Telangana</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Tamilnadu">Tamilnadu</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Goa">Goa</option>
+<option value="Odisha">Odisha</option>
+<option value="West Bengal">West Bengal</option>
+</select>
+</p>
+</form>
+</body>
+</html>
